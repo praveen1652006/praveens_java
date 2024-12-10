@@ -1,0 +1,21 @@
+ENCAPSULATION-*)wrapping up the implementation of the data members & methods in a class
+*)process of containing the information
+ABSTRACTION-*)hiding unnecessary details & showing valuable information
+*)process of gaining information
+ENCAPSULATION
+1.public 2.private 3.protected 4.default(nomodifier)
+
+
+public-accessible inside the class,package,and it can be accessible everywhere
+private-it can be accessible in the same class only but,we can use getters and setters to get the value and set the value
+for the private property
+protected-it can be also accessible everywhere but we have extend the class where the protected member
+has been declared.so in that in case it can be accessible every where
+default(no modifier)-it can also e accessible everywhere but in the same package only.
+
+
+when to use which one ?
+private is used for sensitive data
+public can be accessible every where for ex:PSVM can be accessible every where
+protected can be accessible in all case for example when we need a property that cant be accessible in outside package
+in different package

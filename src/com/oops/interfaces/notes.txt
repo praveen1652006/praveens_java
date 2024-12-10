@@ -1,0 +1,19 @@
+Abstract classes:
+1.cannot be able to create objects for the abstract class
+2.can't able to abstract constructor and static methods
+3.the constructors in the abstract classes are accessed by only derived classes
+4. we cant set the abstract class as final because an abstract should be derived
+to set the body
+5.any class that contains 1 or more abstract methods the class should be declared as abstract
+6.if I put final in the class before it prevents it from inherited.
+7.it can have abstract methods and non-abstract methods also
+
+Interfaces:
+1.interfaces contains abstract functions that are public
+(no (body) of the function is allowed in the interface).
+2.the variables are static and final by default.
+3.has no memory on the heap.
+4.in interfaces implements keyword is used to extend multiple classes.
+5.static interface methods should always have a body when it is declared
+*)Nested Interfaces
+1.
