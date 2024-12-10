@@ -28,4 +28,4 @@ public void display() {
 System.out.println("Nested interface method");
 }
 
-in the abover example the outer.nested is define as that the with outer interface we can only implement the methods in the inner interface
+In the above example, the outer. Nested is defined as that the with outer interface we can only implement the methods in the inner interface
