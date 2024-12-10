@@ -16,4 +16,16 @@ Interfaces:
 4.in interfaces implements keyword is used to extend multiple classes.
 5.static interface methods should always have a body when it is declared
 *)Nested Interfaces
-1.
+1.nested interfaces are unlike a normal interfaces it is implemented a interfaces inside for example
+interface Outer {
+interface Nested {
+void display();
+}
+}
+
+class ImplementingClass implements Outer.Nested {
+public void display() {
+System.out.println("Nested interface method");
+}
+
+in the abover example the outer.nested is define as that the with outer interface we can only implement the methods in the inner interface
