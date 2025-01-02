@@ -22,13 +22,13 @@ class human{
     static long population;
     human(){
         // default constructor
-        this.name="praveen";
+        this.name="raven";
         this.age=18;
         this.gender='M';
         human.population+=1;
     }
-    void show(){
-        System.out.println(this.name+":"+this.age+":"+this.gender+":"+human.population);
+    public void show(){
+        System.out.println(STR."\{this.name}:\{this.age}:\{this.gender}:\{human.population}");
         greetings();
     }
     // static methods
